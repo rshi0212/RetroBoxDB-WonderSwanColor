@@ -7,8 +7,8 @@
 | 项目 | 数值 |
 | --- | --- |
 | 原始大小 | 源 ZIP 310 个，246.6 MiB（No-Intro 265 个，RetroAchievements 集合 45 个）；解压后 ROM 310 个，659.1 MiB |
-| 入库后大小 | 完整库 126.5 MiB；公开 Catalog 3.9 MiB（不含 ROM 数据） |
-| 比例 | 完整库为原 ZIP 的 51.3%，为解压后 ROM 总量的 19.2% |
+| 入库后大小 | 完整库 126.7 MiB；公开 Catalog 4.0 MiB（不含 ROM 数据） |
+| 比例 | 完整库为原 ZIP 的 51.4%，为解压后 ROM 总量的 19.2% |
 | 使用的技术 | 存储 v4：64 KiB 块按 SHA256 去重，按 No-Intro 游戏族顺序装入最大 128 MiB 的 LZMA2 实体组（字典 128 MiB）；逐块 SHA256、逐对象 CRC32／MD5／SHA1／SHA256 校验；源 ZIP 由 TorrentZip 配方逐字节重建 |
 | 导出性能 | Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz，空闲负载，Python 3.14.4，含全部校验。按最新 DAT 整套导出（`export_set.py`，253 个文件，逐个按 DAT 哈希校验）：54.2 MiB/s，平均 37 毫秒／个；单个文件冷缓存（每次清空缓存，需解压所在组的前段）：ROM 平均 1.226 秒，TorrentZip 平均 1.398 秒 |
 
@@ -36,7 +36,7 @@
 | 各版 DAT 覆盖 | 20260525-011610：253/253 |
 | 不在任何 DAT 的本地 ROM | 15 |
 | RetroAchievements 集合中的 ROM 文件 | DAT 中有 29，仅 RA 收录 16，哈希不在最新 RA 快照 0（[清单](reports/ra-wswanc-collection-unknown.csv)）；仍缺本地 ROM 的 RA 游戏见 [缺口清单](reports/ra-wswanc-missing.csv) |
-| No-Intro DB Export＋Dump Log unknown | 254 个档案、263 个文件身份、263 条有文档的硬件声明；Dump Log Verified 53 |
+| No-Intro DB Export＋Dump Log 20260525-011610 | 254 个档案、263 个文件身份、263 条有文档的硬件声明；Dump Log Verified 53 |
 | RetroAchievements（console 53） | 有成就的游戏 33 个：本地有 ROM 33（44 个 ROM），ROM 在兄弟库中 0，仅 DAT 有 0，仅 DB 文件 0，无 No-Intro 对应 0 |
 | 中文名 | 242 条记录中 115 条有中文（97 个唯一名）；本地 ROM 115 个有中文名 |
 | 完整库审计 | 271 个对象、4 个组、278 个 ZIP 配方，全部通过 |
