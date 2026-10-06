@@ -1,10 +1,10 @@
 {
-  "tag": "wsc-catalog-20261006",
-  "title": "WonderSwan Color Catalog: storage v4, first release",
-  "platform": "wsc",
+  "tag": "wswanc-catalog-20261006-2",
+  "title": "WonderSwan Color Catalog: naming normalized, one schema for fifteen platforms",
+  "platform": "wswanc",
   "catalog_name": "RetroBoxDB.WonderSwanColor.Catalog.sqlite",
-  "base_url": "https://github.com/rshi0212/RetroBoxDB-WonderSwanColor/releases/download/wsc-catalog-base-20261006/RetroBoxDB.WonderSwanColor.Catalog.sqlite",
-  "base_sha256": "a6b9069b68db4e6d1b46425d7fe62ff0dc56ba6cedaf03e1dfbbb23e08a5017d",
+  "base_url": "https://github.com/rshi0212/RetroBoxDB-WonderSwanColor/releases/download/wswanc-catalog-base-20261006-2/RetroBoxDB.WonderSwanColor.Catalog.sqlite",
+  "base_sha256": "e400bb99b24cd42e7a1b82c660efddea91352cdff6faed49764f634feabf030e",
   "data_table_sha256": {
     "archive_entries": {
       "rows": 278,
@@ -47,8 +47,8 @@
       "sha256": "1f213f70d00bdbf8a7a18702068d8d1f1b074552901260f48f300902dec105c2"
     },
     "events": {
-      "rows": 10,
-      "sha256": "7fe936e9424b5a794fe61aa6d1bf59e19732cdeab3c00d4466dd8fcd68b81ddd"
+      "rows": 12,
+      "sha256": "cdbf8f8d4d7181d716e3a04d85e67ce9f401793b5061d6d658e3a074ef0afd5f"
     },
     "fds_hardware": {
       "rows": 0,
@@ -76,7 +76,7 @@
     },
     "frontend_platforms": {
       "rows": 1,
-      "sha256": "7f4f76ca16f878de1752dc45018029e5e8d7b3595c8b59cc0335b54521b10271"
+      "sha256": "7257cee4418b4dc9ddd64015e31d06a6e5ce4bde896003b7607f41c81216c1df"
     },
     "frontend_profiles": {
       "rows": 1,
@@ -124,7 +124,7 @@
     },
     "meta": {
       "rows": 23,
-      "sha256": "57d684b91a9dfac13d3ef95df1ec2106a0a012e9d42318927d7377727908caf6"
+      "sha256": "9717981dae8cdbd6a62b67e17cde4d30b62c644db91aa8706fc2f8415cd309d8"
     },
     "naming_decisions": {
       "rows": 3,
@@ -216,7 +216,7 @@
     },
     "platforms": {
       "rows": 1,
-      "sha256": "1935a9f6b9b7cf3043b124630840bd038e886f218a5d9df6ff81c5d77a510666"
+      "sha256": "4070c5899ccf84cb0e1cad14d96fcb041c72b1b8bef50107cabe46aeb4206256"
     },
     "pokemini_hardware": {
       "rows": 0,
@@ -307,8 +307,8 @@
       "sha256": "22e0a1fcf583b574e9b3861b7b651ee25c4500fcc7b118f6dd41ca0ba4f6bc11"
     },
     "scraper_providers": {
-      "rows": 1,
-      "sha256": "ad358de51eea41e843cd0757449d5bc7ed51b790e76768b9651051451c16bf86"
+      "rows": 2,
+      "sha256": "82920b2b40de7fc602f4f14769e0dd2384f435705a9be8cd4ed08a984c72d37f"
     },
     "sms_hardware": {
       "rows": 0,
@@ -416,6 +416,10 @@
       "kind": "python",
       "path": "tools/export_nointro_parents.py"
     },
+    "normalize_db.py": {
+      "kind": "python",
+      "path": "tools/normalize_db.py"
+    },
     "tests_v4.py": {
       "kind": "python",
       "path": "tests/test_v4.py"
@@ -448,21 +452,21 @@
       "kind": "json",
       "path": "assessment/data/storage-experiment-satellaview.json"
     },
-    "storage-experiment-sms": {
+    "storage-experiment-mastersystem": {
       "kind": "json",
-      "path": "assessment/data/storage-experiment-sms.json"
+      "path": "assessment/data/storage-experiment-mastersystem.json"
     },
-    "storage-experiment-32x": {
+    "storage-experiment-sega32x": {
       "kind": "json",
-      "path": "assessment/data/storage-experiment-32x.json"
+      "path": "assessment/data/storage-experiment-sega32x.json"
     },
-    "storage-experiment-ws": {
+    "storage-experiment-wswan": {
       "kind": "json",
-      "path": "assessment/data/storage-experiment-ws.json"
+      "path": "assessment/data/storage-experiment-wswan.json"
     },
-    "storage-experiment-wsc": {
+    "storage-experiment-wswanc": {
       "kind": "json",
-      "path": "assessment/data/storage-experiment-wsc.json"
+      "path": "assessment/data/storage-experiment-wswanc.json"
     },
     "storage-experiment-ngp": {
       "kind": "json",
@@ -486,15 +490,15 @@
     },
     "ra-report.json": {
       "kind": "json",
-      "path": "reports/ra-wsc.json"
+      "path": "reports/ra-wswanc.json"
     },
     "ra-report-games.csv": {
       "kind": "csv",
-      "path": "reports/ra-wsc-games.csv"
+      "path": "reports/ra-wswanc-games.csv"
     },
     "ra-report-missing.csv": {
       "kind": "csv",
-      "path": "reports/ra-wsc-missing.csv"
+      "path": "reports/ra-wswanc-missing.csv"
     }
   },
   "repo_tests": [
