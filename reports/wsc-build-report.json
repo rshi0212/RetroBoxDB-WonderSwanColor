@@ -1,0 +1,196 @@
+{
+  "platform": "wsc",
+  "started_at": "2026-10-06T07:39:36.057988+00:00",
+  "engine_version": "4.0.0",
+  "dat_sets": [
+    {
+      "id": 1,
+      "name": "Bandai - WonderSwan Color (Parent-Clone)",
+      "version": "20260525-011610"
+    }
+  ],
+  "completed_stages": [
+    "dat_import",
+    "rom_import",
+    "scan_diff_catalog",
+    "nointro",
+    "packages",
+    "retroachievements",
+    "game_names"
+  ],
+  "rom_import": {
+    "directories": [
+      "/mnt/MyShare/No-Intro/Bandai - WonderSwan Color",
+      "/mnt/MyShare/No-Intro/Bandai - WonderSwan Color (Aftermarket)"
+    ],
+    "families": 217,
+    "family_assignment": {
+      "family_from_dat_or_db": 265
+    },
+    "errors": [],
+    "groups": 3,
+    "raw_group_bytes": 371277824,
+    "stored_group_bytes": 125912207,
+    "zips": 265,
+    "sidecar_files": 0,
+    "seconds": 161
+  },
+  "scan": {
+    "1": {
+      "match": 253,
+      "mismatch": 0,
+      "unverifiable": 0,
+      "no_candidate": 0
+    }
+  },
+  "dat_diff": {},
+  "catalog": {
+    "games": 217,
+    "releases": 253,
+    "old_dat_games_linked": 0,
+    "rom_release_links": 253
+  },
+  "nointro": {
+    "snapshot_id": 1,
+    "version": "unknown",
+    "archives": 254,
+    "files": 263,
+    "files_with_local_payload": 253,
+    "sources": 449,
+    "dumplog_rows": 254,
+    "dat_links": 253,
+    "archive_release_links": 253,
+    "hardware_assertions": 263,
+    "dumplog_status": {
+      "trusted_unverified": 191,
+      "verified": 53,
+      "unverified": 9,
+      "no_dump": 1
+    },
+    "anomalies": {
+      "file_without_sha256": 66
+    }
+  },
+  "packages": {
+    "packages_by_dat_set": {
+      "1": 253
+    },
+    "errors": []
+  },
+  "retroachievements": {
+    "snapshot_id": 1,
+    "console_id": 53,
+    "fetched_at": "2026-10-06T07:42:35.471356+00:00",
+    "games": 240,
+    "hashes": 263,
+    "games_with_achievements": 57,
+    "hashes_of_games_with_achievements": 76,
+    "local_roms_matched": 29,
+    "ra_games_with_local_rom": 29,
+    "dat_entries_matched": 29,
+    "ra_games_in_any_dat": 29,
+    "hashes_with_achievements_unexplained": 47,
+    "by_category_local": {
+      "Homebrew": 1,
+      "Official": 28
+    }
+  },
+  "game_names": {
+    "source_name": "Bandai - WonderSwan Color.csv",
+    "source_sha256": "2ad99b20dfb6dfbcd3bbc548af16f77a9fb0103052ab1db399cc986845b95668",
+    "normalization_version": "parentheses-whitespace-casefold-v1",
+    "import_id": 1,
+    "matching_version": "game-qualified-title-v1",
+    "rows": 242,
+    "rows_with_chinese": 115,
+    "unique_chinese_names": 97,
+    "normalized_titles": 214,
+    "matched_rows": 242,
+    "matched_rows_with_chinese": 115,
+    "matched_releases": 242,
+    "releases_with_chinese": 115,
+    "matched_games": 210,
+    "matched_roms": 242,
+    "matched_links": 242,
+    "ambiguous_links": 0,
+    "ambiguous_rows": 0,
+    "unmatched_rows": 0,
+    "unresolved_rows": [],
+    "multiple_translation_keys": [],
+    "matched_rows_by_method": {
+      "exact_title": 241,
+      "qualified_title": 1
+    }
+  },
+  "audit": {
+    "integrity_check": [
+      "ok"
+    ],
+    "foreign_key_errors": [],
+    "objects_checked": 256,
+    "archive_plans_checked": 259,
+    "compression_groups_checked": 3,
+    "historical_zip_objects": 259,
+    "ok": true,
+    "errors": []
+  },
+  "stats": {
+    "counts": {
+      "files": 789,
+      "objects": 515,
+      "chunks": 5670,
+      "roms": 253,
+      "dat_sets": 1,
+      "dat_roms": 253,
+      "transformations": 0,
+      "packages": 253,
+      "media": 0
+    },
+    "storage": {
+      "logical_content_bytes": 538272675,
+      "historical_zip_bytes_not_stored": 205307856,
+      "unique_raw_chunk_bytes": 371745699,
+      "stored_chunk_bytes": 125983025,
+      "header_body_recipes": 0,
+      "zip_plans": 259,
+      "file_occurrences": 789,
+      "catalog_objects": 515
+    },
+    "dat_coverage": [
+      {
+        "dat_set_id": 1,
+        "status": "matched",
+        "count": 253
+      }
+    ],
+    "codecs": [
+      {
+        "codec": "group",
+        "blocks": 5667,
+        "raw_bytes": 371277824,
+        "stored_bytes": 0
+      },
+      {
+        "codec": "lzma",
+        "blocks": 3,
+        "raw_bytes": 467875,
+        "stored_bytes": 70818
+      }
+    ],
+    "storage_schema_version": 4,
+    "compression_groups": {
+      "groups": 3,
+      "raw_bytes": 371277824,
+      "stored_bytes": 125912207
+    },
+    "platform": "wsc",
+    "solid_groups": {
+      "groups": 3,
+      "raw_bytes": 371277824,
+      "stored_bytes": 125912207
+    }
+  },
+  "finished_at": "2026-10-06T07:43:03.832720+00:00",
+  "seconds": 209,
+  "database_bytes": 132300800
+}

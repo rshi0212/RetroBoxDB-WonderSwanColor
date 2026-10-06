@@ -1,0 +1,14 @@
+{
+ "db": "WonderSwanColor",
+ "ok": true,
+ "seconds": 25,
+ "integrity_check": [
+  "ok"
+ ],
+ "foreign_key_errors": [],
+ "objects_checked": 271,
+ "archive_plans_checked": 278,
+ "compression_groups_checked": 4,
+ "historical_zip_objects": 278,
+ "errors": []
+}
