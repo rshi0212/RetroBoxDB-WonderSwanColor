@@ -1,0 +1,515 @@
+{
+  "tag": "wsc-catalog-20261006",
+  "title": "WonderSwan Color Catalog: storage v4, first release",
+  "platform": "wsc",
+  "catalog_name": "RetroBoxDB.WonderSwanColor.Catalog.sqlite",
+  "base_url": "https://github.com/rshi0212/RetroBoxDB-WonderSwanColor/releases/download/wsc-catalog-base-20261006/RetroBoxDB.WonderSwanColor.Catalog.sqlite",
+  "base_sha256": "a6b9069b68db4e6d1b46425d7fe62ff0dc56ba6cedaf03e1dfbbb23e08a5017d",
+  "data_table_sha256": {
+    "archive_entries": {
+      "rows": 278,
+      "sha256": "f33b9c8ff73e06766e72aef071bfe9aa791c259c9ff3b806ec2a83b7372a215d"
+    },
+    "archive_plans": {
+      "rows": 278,
+      "sha256": "5115bd240e37c3ebcab166eccc88ac2f4cd6a360d610173077a8a8d230a98218"
+    },
+    "archive_profiles": {
+      "rows": 1,
+      "sha256": "a8247ca6bd7302d45bbf2e6dfe2fae5b8624f1333cc6a4087cd18bac6e463690"
+    },
+    "bsx_hardware": {
+      "rows": 0,
+      "sha256": "44f335cb2b7c8f195e63c47f303f37dadc7e880771c4b23baef96323d6cb90d3"
+    },
+    "chunks": {
+      "rows": 0,
+      "sha256": "d8d257699f7b624120779c84da8ed3edd1554e7bd23d2a1a5b0d3e174cb9bed3"
+    },
+    "compression_groups": {
+      "rows": 0,
+      "sha256": "3e0707c7194961dfc2109f83c30d607865be1e5a36a9c44e7f116430408ed440"
+    },
+    "dat_changes": {
+      "rows": 0,
+      "sha256": "ff8f6598d7f24c2a8cea7f82ca7291d1de3afaaaeec195d9f78312e498f53aa4"
+    },
+    "dat_games": {
+      "rows": 253,
+      "sha256": "ef51606db89333b474304e0e0d4e86619fadf3efb883ffd46e657d05115fc16e"
+    },
+    "dat_roms": {
+      "rows": 253,
+      "sha256": "88d852662512c1984064a2fabfa9174e67ba76aa3762e3f50f58c2d5c4ccb8a4"
+    },
+    "dat_sets": {
+      "rows": 1,
+      "sha256": "1f213f70d00bdbf8a7a18702068d8d1f1b074552901260f48f300902dec105c2"
+    },
+    "events": {
+      "rows": 10,
+      "sha256": "7fe936e9424b5a794fe61aa6d1bf59e19732cdeab3c00d4466dd8fcd68b81ddd"
+    },
+    "fds_hardware": {
+      "rows": 0,
+      "sha256": "375c736a39de19330edc6ac46a26acccfda18a13e70ba87f22f6d39da91d9c42"
+    },
+    "file_archives": {
+      "rows": 566,
+      "sha256": "5fe970c91a0e7484848add7d83c4849fe28082ca098c877d5e628b8733bd425e"
+    },
+    "files": {
+      "rows": 879,
+      "sha256": "056ce22de5f5d244c1bf7b7b6d9a7a61be4a6e572db736052858c589b6634d89"
+    },
+    "frontend_fields": {
+      "rows": 40,
+      "sha256": "64d4f821ac0e21657b49782ba09eb79a07f598c7a742c73a960b750d51b5fe27"
+    },
+    "frontend_game_values": {
+      "rows": 0,
+      "sha256": "61c7d085acca200f90bf287a4cffbf222ccff8a06fe51e6e0a87bd2459e38653"
+    },
+    "frontend_media_slots": {
+      "rows": 0,
+      "sha256": "c9fb537b894980ea6242527c682dc07da5a5fa68cdaf461c6453925c7e1681c1"
+    },
+    "frontend_platforms": {
+      "rows": 1,
+      "sha256": "7f4f76ca16f878de1752dc45018029e5e8d7b3595c8b59cc0335b54521b10271"
+    },
+    "frontend_profiles": {
+      "rows": 1,
+      "sha256": "10dd40fa97915298ae88914ac461a382ea15f946744942e9adcfa4f91d629d09"
+    },
+    "game_chinese_names": {
+      "rows": 97,
+      "sha256": "b7759501046c6bec4122837b713eb16df19bdf22d4cc8de05c600c5bf4e9e22e"
+    },
+    "game_name_entries": {
+      "rows": 242,
+      "sha256": "79b9632f885c0f49d44efb3aa9c379e69ef5eab2b6c913754a4e17cb6a2b24ab"
+    },
+    "game_name_imports": {
+      "rows": 1,
+      "sha256": "603bfe40425f8e2dceba60eddd58bf48d24b4574e81eca08bc32d1b14273548d"
+    },
+    "game_name_match_decisions": {
+      "rows": 242,
+      "sha256": "fbfd708b9416e455845a3e60c1cffa567a43956947237e26ab413c818cd9c498"
+    },
+    "games": {
+      "rows": 217,
+      "sha256": "5a62cd88641a436426ea134073c79f7675188465dda9d2157fdc003d9dd559c4"
+    },
+    "gb_hardware": {
+      "rows": 0,
+      "sha256": "6c43f561fac1c3edf4d629e477485caa8fc0ec9a3e20aa7e90844e62d9234d62"
+    },
+    "gba_hardware": {
+      "rows": 0,
+      "sha256": "a779fbf1ccd01e827d959df4683b11a327d1b8a152a1317d3726966550c5ce89"
+    },
+    "hardware_assertions": {
+      "rows": 263,
+      "sha256": "8bcc5ae420bb171b9805ade782adf29b2bcef6e79e4f90117b748cfaa17592bd"
+    },
+    "md_hardware": {
+      "rows": 0,
+      "sha256": "15d766ef38079ba64e5a94d59662fb560536d68626b295c96a9e01dd857cfe05"
+    },
+    "media": {
+      "rows": 0,
+      "sha256": "ff454ed3befce51f71f38ba2eb228a619c3d7afeeebd76c0a1f26400444af6a5"
+    },
+    "meta": {
+      "rows": 23,
+      "sha256": "57d684b91a9dfac13d3ef95df1ec2106a0a012e9d42318927d7377727908caf6"
+    },
+    "naming_decisions": {
+      "rows": 3,
+      "sha256": "6d67c906bc8fbd4569798f8f5294a10c49047e5be00ef072bc670dbe56035c1e"
+    },
+    "nes_hardware": {
+      "rows": 0,
+      "sha256": "c28ddc2a6f396bb9bd78355677df991aca4a5053f8506e043b94a5e42d788d6d"
+    },
+    "nes_recipes": {
+      "rows": 0,
+      "sha256": "751f5c09cc9ab01187b10f062c562a74eb320de058ba0821aebeb47306dfd8b3"
+    },
+    "ngp_hardware": {
+      "rows": 0,
+      "sha256": "9a2f5d3a596e1c1fc3eb468f4970cd438db9a5aabcb1085e88ef2cee1e263799"
+    },
+    "ni_anomalies": {
+      "rows": 66,
+      "sha256": "cc23901eea12f342df1853a8463613a603746729cbf539424725fd6d142625c0"
+    },
+    "ni_archive_releases": {
+      "rows": 253,
+      "sha256": "43478b30aea77d99b8c941125a30bbaf229479938c55c8a44e037b7b482990ea"
+    },
+    "ni_archives": {
+      "rows": 254,
+      "sha256": "2e9c3906d4774ca91980ac07892fc0c3591bda46b7c7d0f91a233ce2f7fdb4d1"
+    },
+    "ni_dat_links": {
+      "rows": 253,
+      "sha256": "a072746d844493042e264981ab3ee7dbe17a9536707aa22937aa2bfdb9aea32d"
+    },
+    "ni_dumplog": {
+      "rows": 254,
+      "sha256": "333affff9b15a841f8a8b925cfaac6ab6b2f2acee60d3a95d8a2ab433dc085c4"
+    },
+    "ni_dumplog_files": {
+      "rows": 253,
+      "sha256": "8d841db36876265bbb721d9eb797066c184188f5010ba490d877613fef249529"
+    },
+    "ni_files": {
+      "rows": 263,
+      "sha256": "3a753f1d141df98bd17552c374089b8f096aca86fabf6c1b341f6dc1dad9fb67"
+    },
+    "ni_headers": {
+      "rows": 0,
+      "sha256": "0ff437dfe9df929f2796fb0567f4e1a1ea10f587dd201bbb46f35454729be9f4"
+    },
+    "ni_pair_checks": {
+      "rows": 0,
+      "sha256": "6eef99757248b711339c3fad27b17e67281295a550699149f56e6bfee95a499c"
+    },
+    "ni_reconstructions": {
+      "rows": 0,
+      "sha256": "c5ffdc2ba8585597aeab7763567f0736c2cfd6d884370217495ab620ec35f915"
+    },
+    "ni_snapshots": {
+      "rows": 1,
+      "sha256": "2dcbc4753c2a9523e971f810c626e5f23aeda7606e7b8c9e97bfdfbf17d2a293"
+    },
+    "ni_source_files": {
+      "rows": 447,
+      "sha256": "855337173386418d831dba5c5d6032255e8e4d4961efb5a93e98757f03089077"
+    },
+    "ni_sources": {
+      "rows": 449,
+      "sha256": "91196794cb17f6039322d4c3a7a9a78ba6a0a0bbbc9cd558f33571396d5c8629"
+    },
+    "object_chunks": {
+      "rows": 0,
+      "sha256": "fd5a7a33f506e106df266f6402be4ab11593068d2660fc8a3013ceb920dcf5f9"
+    },
+    "object_families": {
+      "rows": 268,
+      "sha256": "d582dad9dff16023bdd0fd776cf7f9b9721b23f4d684affd57a9d393d478fd2a"
+    },
+    "objects": {
+      "rows": 549,
+      "sha256": "9116e88b26544fbfa268f41301bdf28d608515b5e1cc45897e919750b739d1bd"
+    },
+    "package_members": {
+      "rows": 253,
+      "sha256": "71a953502bc99f8579bdbeaffc4f46de1a71c4af796e648cfbfe8d45b3021226"
+    },
+    "packages": {
+      "rows": 253,
+      "sha256": "676b8482d32f40c8ec6ab8bdfafc2cf917b724cb460216e7a252c7434030931d"
+    },
+    "platforms": {
+      "rows": 1,
+      "sha256": "1935a9f6b9b7cf3043b124630840bd038e886f218a5d9df6ff81c5d77a510666"
+    },
+    "pokemini_hardware": {
+      "rows": 0,
+      "sha256": "dc96eb03b53617ff828d26e3915af95a36468cc5ec5eea4bf01fbdf0ee429631"
+    },
+    "provider_record_media": {
+      "rows": 0,
+      "sha256": "3ec0c10f07801ba685db1093a142faff421ff51fe34f3af611d9848e89129c7f"
+    },
+    "provider_record_values": {
+      "rows": 0,
+      "sha256": "06d4460adf562dd478efbb2953eba00e81eed2639ca38a4d272afb58dbc3cf49"
+    },
+    "provider_records": {
+      "rows": 0,
+      "sha256": "8d1aed94767a621a19255f9831ccd32422401538e907aa60255b17471f53a041"
+    },
+    "provider_snapshot_records": {
+      "rows": 0,
+      "sha256": "59f3c85810597549f150b6d04a899a44545a2b4fe6006a5a57134d827bafcbb9"
+    },
+    "provider_snapshots": {
+      "rows": 0,
+      "sha256": "f35a831d676242731ee6a3638ae1227bf32b28367205a13ce2f610e6c3df068d"
+    },
+    "ra_games": {
+      "rows": 240,
+      "sha256": "7969dbed590954eba5100ad1369faaf6936e33d053cbb5dc44255b709e557486"
+    },
+    "ra_hashes": {
+      "rows": 263,
+      "sha256": "61ab440747e2835c52f1106e9197a4d6d4be5e5b6e1976223c26e43400b1fff9"
+    },
+    "ra_snapshots": {
+      "rows": 1,
+      "sha256": "6c0f58a0bff1c64110446f1d09af5bfadaa0d0cef1494ba0b3d2644aa26cbff6"
+    },
+    "release_dat_games": {
+      "rows": 253,
+      "sha256": "60e3e8c945bfab87c66f2cad191a84e02d1ef6b236980e91be93ed98a0ad7f18"
+    },
+    "release_name_links": {
+      "rows": 242,
+      "sha256": "11b2bc1a35e829b92679d19d7ed983d9b27a174545bb815a6a8d491192f69c7a"
+    },
+    "releases": {
+      "rows": 253,
+      "sha256": "6e59c8f5808c54e1e65880489c9a8c78f80f8cfb1fbfb1d792f240da4e674684"
+    },
+    "repair_attempts": {
+      "rows": 0,
+      "sha256": "3c642e0d29d1e5dab60d2328c3d565be7c0acc7c70e44cb33566db7e538d7ffa"
+    },
+    "rom_components": {
+      "rows": 534,
+      "sha256": "5df948d104f96304c1e619676e94d89ee07e04b1846dff91a9f88266cba3927a"
+    },
+    "rom_ra_hashes": {
+      "rows": 268,
+      "sha256": "343ab16647fb72e997ad3732dbe10d2faf1036855c9f1ea22c910c0a97b60668"
+    },
+    "rom_releases": {
+      "rows": 253,
+      "sha256": "71143db00d214ab6f0b41edd1f34340af6cc183591d8c6b6a14a810edad4c2e3"
+    },
+    "roms": {
+      "rows": 268,
+      "sha256": "5409426c0d9907dfb63fc149c59dc5dbdd9bebdd65dedcdc7132e72d49a1149e"
+    },
+    "scrape_blobs": {
+      "rows": 0,
+      "sha256": "d69e8bc381417dc1569bb2547217128153f7c64a25c8af024bc824e313eeb304"
+    },
+    "scrape_checks": {
+      "rows": 0,
+      "sha256": "70ca06aa5ee90c1437372a352754bd6c73b417eab499ace5ca3c822c21efaf54"
+    },
+    "scrape_records": {
+      "rows": 0,
+      "sha256": "ee22a6bc78d4f6cf94e515608899aff607cefe667196adc091ee83b5d293291f"
+    },
+    "scrape_texts": {
+      "rows": 0,
+      "sha256": "8f10df29cf80783a2d113e0854c92db8f9c15f7d7bea55224166ad98637bd05a"
+    },
+    "scraper_game_links": {
+      "rows": 0,
+      "sha256": "22e0a1fcf583b574e9b3861b7b651ee25c4500fcc7b118f6dd41ca0ba4f6bc11"
+    },
+    "scraper_providers": {
+      "rows": 1,
+      "sha256": "ad358de51eea41e843cd0757449d5bc7ed51b790e76768b9651051451c16bf86"
+    },
+    "sms_hardware": {
+      "rows": 0,
+      "sha256": "0f28796bb95b44ff2c416e9d7c1d66f03d8620c25689e7e5d2ddd2366bf07d39"
+    },
+    "snes_hardware": {
+      "rows": 0,
+      "sha256": "affa7bfc7d2085320a163fb9ea1ce7500c1ac222aab17389817a91d784922466"
+    },
+    "solid_group_families": {
+      "rows": 219,
+      "sha256": "6a5da4153980f9298cd40f87c9e55ca2d27570d44c998c69731d52d6c9d29b56"
+    },
+    "source_collections": {
+      "rows": 3,
+      "sha256": "d66417dc8464fd67364201ef1107b42e08caed70187bb4f006af48de2430f34b"
+    },
+    "sources": {
+      "rows": 454,
+      "sha256": "a002464e37e868cb3131b63cec6775810b1df5eb97423f526c958406ddabb53a"
+    },
+    "ss_lookups": {
+      "rows": 0,
+      "sha256": "1f3830951443b3ba835c0df68f8109720625b72e05268052759cda8173ef9e53"
+    },
+    "ss_record_roms": {
+      "rows": 0,
+      "sha256": "cd4bcd17af6f21b58cd49fb15a5ff13a976b99e9c5d53acea9ec135bcbf761cc"
+    },
+    "transformations": {
+      "rows": 0,
+      "sha256": "d34d00b4de69a479200769531bc6d17502d5047117c15922c0616e01a1cbc24a"
+    },
+    "validations": {
+      "rows": 253,
+      "sha256": "bd77a1532eb02fc57b7b0b66277dfbfd3cabaf8aee5c2026ebda2cf0704a045d"
+    },
+    "ws_hardware": {
+      "rows": 266,
+      "sha256": "5f439b7b4c41014fda5fa069feb97c298e2b2030f30f7c485a79a9a546271c3b"
+    }
+  },
+  "resources": {
+    "schema_v4.sql": {
+      "kind": "sql",
+      "path": "tools/schema_v4.sql"
+    },
+    "rom_headers.py": {
+      "kind": "python",
+      "path": "tools/rom_headers.py"
+    },
+    "engine_v4.py": {
+      "kind": "python",
+      "path": "tools/engine_v4.py"
+    },
+    "nointro_db.py": {
+      "kind": "python",
+      "path": "tools/nointro_db.py"
+    },
+    "build_db.py": {
+      "kind": "python",
+      "path": "tools/build_db.py"
+    },
+    "finalize_db.py": {
+      "kind": "python",
+      "path": "tools/finalize_db.py"
+    },
+    "import_ra.py": {
+      "kind": "python",
+      "path": "tools/import_ra.py"
+    },
+    "ra_report.py": {
+      "kind": "python",
+      "path": "tools/ra_report.py"
+    },
+    "update_db.py": {
+      "kind": "python",
+      "path": "tools/update_db.py"
+    },
+    "retune_db.py": {
+      "kind": "python",
+      "path": "tools/retune_db.py"
+    },
+    "migrate_v4.py": {
+      "kind": "python",
+      "path": "tools/migrate_v4.py"
+    },
+    "export_set.py": {
+      "kind": "python",
+      "path": "tools/export_set.py"
+    },
+    "build_catalog_release.py": {
+      "kind": "python",
+      "path": "tools/build_catalog_release.py"
+    },
+    "import_game_names.py": {
+      "kind": "python",
+      "path": "tools/import_game_names.py"
+    },
+    "game_names_schema.sql": {
+      "kind": "sql",
+      "path": "tools/game_names_schema.sql"
+    },
+    "export_nointro_parents.py": {
+      "kind": "python",
+      "path": "tools/export_nointro_parents.py"
+    },
+    "tests_v4.py": {
+      "kind": "python",
+      "path": "tests/test_v4.py"
+    },
+    "README.zh-CN": {
+      "kind": "markdown",
+      "path": "RetroBoxDB.Storage-v4.zh-CN.md"
+    },
+    "README.en": {
+      "kind": "markdown",
+      "path": "RetroBoxDB.Storage-v4.en.md"
+    },
+    "TECHNICAL-DESIGN.en": {
+      "kind": "markdown",
+      "path": "RetroBoxDB.Storage-v4.Technical-Design.en.md"
+    },
+    "storage-experiment-snes-md": {
+      "kind": "json",
+      "path": "assessment/data/storage-experiment-snes-md.json"
+    },
+    "storage-experiment-gb-gbc-gba": {
+      "kind": "json",
+      "path": "assessment/data/storage-experiment-gb-gbc-gba.json"
+    },
+    "storage-experiment-fds": {
+      "kind": "json",
+      "path": "assessment/data/storage-experiment-fds.json"
+    },
+    "storage-experiment-satellaview": {
+      "kind": "json",
+      "path": "assessment/data/storage-experiment-satellaview.json"
+    },
+    "storage-experiment-sms": {
+      "kind": "json",
+      "path": "assessment/data/storage-experiment-sms.json"
+    },
+    "storage-experiment-32x": {
+      "kind": "json",
+      "path": "assessment/data/storage-experiment-32x.json"
+    },
+    "storage-experiment-ws": {
+      "kind": "json",
+      "path": "assessment/data/storage-experiment-ws.json"
+    },
+    "storage-experiment-wsc": {
+      "kind": "json",
+      "path": "assessment/data/storage-experiment-wsc.json"
+    },
+    "storage-experiment-ngp": {
+      "kind": "json",
+      "path": "assessment/data/storage-experiment-ngp.json"
+    },
+    "storage-experiment-ngpc": {
+      "kind": "json",
+      "path": "assessment/data/storage-experiment-ngpc.json"
+    },
+    "storage-experiment-pokemini": {
+      "kind": "json",
+      "path": "assessment/data/storage-experiment-pokemini.json"
+    },
+    "storage-curves": {
+      "kind": "json",
+      "path": "assessment/data/storage-curves.json"
+    },
+    "audit-resolution": {
+      "kind": "markdown",
+      "path": "reports/audit-resolution-20261004.md"
+    },
+    "ra-report.json": {
+      "kind": "json",
+      "path": "reports/ra-wsc.json"
+    },
+    "ra-report-games.csv": {
+      "kind": "csv",
+      "path": "reports/ra-wsc-games.csv"
+    },
+    "ra-report-missing.csv": {
+      "kind": "csv",
+      "path": "reports/ra-wsc-missing.csv"
+    }
+  },
+  "repo_tests": [
+    "tests/test_v4.py",
+    "tests/test_game_names.py"
+  ],
+  "remove_resources": [
+    "cart_schema.sql",
+    "cart_headers.py",
+    "cart_engine.py",
+    "cart_nointro.py",
+    "build_cart_db.py",
+    "update_cart_db.py",
+    "finalize_cart_db.py",
+    "tests_cart.py",
+    "storage-experiment"
+  ]
+}
